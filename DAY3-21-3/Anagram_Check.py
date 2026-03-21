@@ -3,7 +3,7 @@ just in a different order. Return True if they are anagrams, False if not.
 s = "anagram", t = "nagaram" → True s = "rat", t = "car" → True 
 s = "hello", t = "world" → False s = "listen", t = "silent" → True'''
 
-def anagram(s, t):
+def anagram(s, t):                         # it should have same letters and length same can differently arranged
     if len(s) != len(t):
         return False
     count = {}
