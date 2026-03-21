@@ -8,10 +8,11 @@ def maxprofit(prices):
     min_price =float('inf')
     max_profit = 0
     for price in prices:
-        if price < min_price:
+        if price < min_price: # check for min price
             min_price = price
-        elif price - min_price > max_profit:
+        elif price - min_price > max_profit:  # check for max profit
             max_profit = price - min_price
     return max_profit
+
 print(maxprofit([7,1,5,3,6,4]))
 print(maxprofit([3,4,1,6,8]))
