@@ -1,4 +1,4 @@
-# Bubble Sort
+# Bubble Sort   (sorting the numbers in ascending order)
 
 def Bubble(arr):                                                                  # eg: [5,2,9,4]
     n = len(arr)          #  it stores the len of array                           4
