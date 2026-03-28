@@ -17,3 +17,4 @@ def Dutch(nums):
             high -= 1
     return nums
 print(Dutch([2,1,0,1,2]))
+
