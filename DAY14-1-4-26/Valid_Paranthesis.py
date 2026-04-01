@@ -1,4 +1,4 @@
-'''(LeetCode #20)
+'''(LeetCode #20) - valid paranthesis
 Given a string s containing just the characters '(', ')', '{', '}', '[', and ']', determine if the input string is valid.
 An input string is valid if:
 - Open brackets must be closed by the same type of brackets.
@@ -41,3 +41,4 @@ print("Result:", sol.isValid("()[]{}"))    # True
 print("Result:", sol.isValid("(]"))        # False
 print("Result:", sol.isValid("([)]"))      # False
 print("Result:", sol.isValid("{[]}"))      # True
+
